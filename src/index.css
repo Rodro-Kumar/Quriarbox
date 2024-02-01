@@ -1,0 +1,44 @@
+body {
+  background: #fff6e5;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 outline-none box-border;
+  }
+
+  ol,
+  ul,
+  li {
+    @apply list-none;
+  }
+
+  a {
+    @apply no-underline inline-block;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li,
+  ul,
+  div,
+  section,
+  img,
+  i {
+    @apply p-0 m-0;
+  }
+
+  img {
+    @apply align-middle;
+  }
+}
