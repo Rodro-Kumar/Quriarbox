@@ -1,0 +1,13 @@
+.testi {
+  position: relative;
+}
+
+.title {
+  position: relative;
+}
+
+.testiImg {
+  position: absolute;
+  top: -43px;
+  left: 230px;
+}
